@@ -1,0 +1,67 @@
+.jumbotron{
+    background-color: white !important;
+    border: 1px solid black !important;
+}
+.mll1{
+    margin-left: -20px !important;
+}
+.h{
+    padding: 5px;
+    width: 170px;
+    height: 38px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    box-sizing: border-box;
+    float: left;
+}
+.i{
+    padding: 5px;
+    width: 180px;
+    height: 38px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    box-sizing: border-box;
+    float: left;
+}
+.j{
+    padding: 5px;
+    width: 130px;
+    height: 38px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    box-sizing: border-box;
+    float: left;
+}
+input[type=radio]{
+    float: right !important;
+    margin-right: 10px !important;
+    margin-top: 7px !important;
+}
+.d{
+    font-size: 12px;
+    line-height: 5px;
+}
+.mx11{
+    margin-left: 160px !important;
+}
+.e{
+    width: 120px;
+    height: 40px;
+    border: 1px solid lightgray;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+.f{
+    width: 120px;
+    height: 40px;
+    border: 1px solid lightgray;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+.g{
+    width: 120px;
+    height: 40px;
+    border: 1px solid lightgray;
+    margin-top: 5px;
+    border-radius: 5px;
+}

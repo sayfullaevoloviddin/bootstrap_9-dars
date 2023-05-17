@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main4.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="row my-5">
+        <div class="col-md-4 offset-4">
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                    <a href="#" class="nav-link" data-toggle="tab" data-target="#login">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link active" data-toggle="tab" data-target="#registration">Registration</a>
+                </li>
+            </ul>
+            <div class="tab-content">
+                <div class="tab-pane fade show" id="registration">
+                    <form action="#" method="get">
+                        <div class="input-group">
+                            <label for="name" class="mt-2">Full Name</label>
+                            <select name="name" id="name" class="ml-4 mt-2 bg-light">
+                                <option value="1">Mr.</option>
+                                <option value="2">Mrs.</option>
+                                <input type="text" placeholder="Your Name" class="text-center ml-2 mt-2 form-control">
+                            </select>
+                        </div>
+                        <div class="input-group">
+                            <label for="email" class="mt-2">E-mail</label>
+                            <input type="text" placeholder="Your E-mail" class="form-control ml-22 mt-2 text-center" id="email">
+                        </div>
+                        <div class="input-group">
+                            <label for="mobile" class="mt-2">Mobile No.</label>
+                            <input type="text" placeholder="Mobile Number" class="form-control ml-33 mt-2 text-center" id="mobile">
+                        </div>
+                        <div class="input-group">
+                            <label for="location" class="mt-2">Location</label>
+                            <input type="text" placeholder="Location" class="text-center form-control ml-44 mt-2" id="location">
+                        </div>
+                        <div class="btn-group">
+                            <button class="btn btn-secondary text-center text-white mt-2">Cencel</button>
+                            <button class="btn btn-info text-center text-white mt-2 ml-4" style="width: 254px">Save & Continue</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/jQuery.min.js"></script>
+<script src="js/src/popover.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>

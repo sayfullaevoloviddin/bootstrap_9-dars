@@ -1,0 +1,21 @@
+
+input{
+    border-radius: 0 !important ;
+    height: 30px !important;
+}
+select{
+    height: 30px !important;
+    border: 0 !important;
+}
+.ml-22{
+    margin-left: 51px !important;
+}
+.ml-33{
+    margin-left: 17px !important;
+}
+.ml-44{
+    margin-left: 36px !important;
+}
+.btn{
+    border-radius: 0 !important;
+}
